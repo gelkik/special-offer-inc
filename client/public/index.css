@@ -1,0 +1,159 @@
+:root {
+    /* background-image: url(Asset.png);  */
+    background-image: none; 
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-image: url(Asset.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+@font-face {
+    font-family: SFPro;
+    src: url(SFProDisplay-Regular.woff);
+}
+@font-face {
+    font-family: SFPro2;
+    src: url(SFProDisplay-Regular.woff2);
+}
+
+#question {
+    font-family: SFPro;
+    color: white;
+    font-size: 48px;
+    line-height: 48px;
+    overflow-wrap: break-word;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    /* padding-left: 25%; */
+    width: 100%;
+    margin-left: 3.7em;
+}
+
+.description-1 {
+    font-family: SFPro;
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    white-space:pre-wrap;
+    font-weight: 500;
+    max-width: 500px;
+    margin-top: 1em;
+    margin-left: 3.5em;
+    padding-left: 4em;
+}
+.description-2 {
+    font-family: SFPro;
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    white-space:pre-wrap;
+    font-weight: 500;
+    max-width: 600px;
+    margin-top: 1em;
+    margin-left: 3.5em;
+    padding-left: 4em;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    cursor: text;
+    padding-left: 10px;
+  }
+
+input {
+    background-color: black;
+    color: white;
+    height: 56px;
+    align-self: stretch;
+    font-weight: 700px;
+    max-width: 696px;
+    background: transparent;
+    border: none;
+    width: 200px;
+    font-family: SFPro2;
+}
+
+#form-handle{
+    color: white; 
+    padding: 10px;
+    font-family: SFPro2;
+}
+
+.first-form{
+    width: 343px;
+    display:inline-block;
+    border: 2px solid #3D3D3D;
+    border-radius: 16px;
+    background-color: black;
+}
+#new-name{
+    width: 250px;
+}
+
+.second-form{
+    width: 343px;
+    display:inline-block;
+    border: 2px solid #3D3D3D;
+    border-radius: 16px;
+    background-color: black;
+}
+#new-email{
+    width: 250px;
+}
+
+.third-form{
+    margin-top: 1em;
+    width: 696px;
+    border: 2px solid #129A14;
+    border-radius: 16px;
+    background-color: black;
+}
+#new-handle{
+    width: 600px;
+}
+
+#text-before-submit{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 2em;
+    font-family: SFPro;
+    width: 55%;
+}
+
+input[type="submit"]{
+    /* width: 75%; */
+    /* padding: 8px; */
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    /* margin-right: 50px; */
+    box-sizing: border-box;
+    font-family: SFPro2;
+    font-weight: bold;
+    width: 50%;
+    cursor: pointer;
+}
